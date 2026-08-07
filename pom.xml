@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Versão do modelo do POM -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Coordenadas GAV (Identidade do Projeto) -->
+    <groupId>br.com.fiap.bank</groupId>
+    <artifactId>fiap-bank-atm</artifactId>
+    <version>1.0.0</version>
+
+    <!-- Propriedades Básicas do Compilador -->
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- Configurações de Build para Execução via Linha de Comando (Fat JAR) -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <!-- Classe principal (Main) que será chamada na execução -->
+                            <mainClass>br.com.fiap.bank.atm.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

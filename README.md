@@ -25,7 +25,7 @@ O sistema roda no console e simula um terminal bancário com autenticação por 
 
 ## Arquitetura do projeto
 
-Segui a separação em 4 camadas dentro do pacote `br.fiap.bank.atm`, conforme pedido no enunciado:
+Segui a separação em 4 camadas dentro do pacote `br.com.fiap.bank.atm`, conforme pedido no enunciado:
 
 ```
 presentation  →  application  →  model
@@ -180,7 +180,7 @@ javac -d out -sourcepath src $(find src -name "*.java")
 
 **Executar:**
 ```bash
-java -cp out br.fiap.bank.atm.Main
+java -cp out br.com.fiap.bank.atm.Main
 ```
 
 **Dados de acesso (simulados no código):**

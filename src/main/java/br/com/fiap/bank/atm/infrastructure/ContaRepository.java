@@ -1,6 +1,6 @@
-package br.fiap.bank.atm.infrastructure;
+package br.com.fiap.bank.atm.infrastructure;
 
-import br.fiap.bank.atm.model.Conta;
+import br.com.fiap.bank.atm.model.Conta;
 
 import java.util.HashMap;
 import java.util.Map;

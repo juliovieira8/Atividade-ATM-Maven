@@ -1,6 +1,6 @@
-package br.fiap.bank.atm.application;
+package br.com.fiap.bank.atm.application;
 
-import br.fiap.bank.atm.model.Conta;
+import br.com.fiap.bank.atm.model.Conta;
 
 // Serviço responsável apenas pela autenticação.
 // Separei de ContaService para deixar claro que autenticação e operações financeiras

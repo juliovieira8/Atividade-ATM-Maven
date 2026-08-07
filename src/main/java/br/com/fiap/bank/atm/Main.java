@@ -1,12 +1,12 @@
-package br.fiap.bank.atm;
+package br.com.fiap.bank.atm;
 
 import java.util.Scanner;
 
-import br.fiap.bank.atm.application.AutorizacaoService;
-import br.fiap.bank.atm.application.ContaService;
-import br.fiap.bank.atm.model.Conta;
-import br.fiap.bank.atm.presentation.CadastrarContaAcessoController;
-import br.fiap.bank.atm.presentation.TerminalBancarioController;
+import br.com.fiap.bank.atm.application.AutorizacaoService;
+import br.com.fiap.bank.atm.application.ContaService;
+import br.com.fiap.bank.atm.model.Conta;
+import br.com.fiap.bank.atm.presentation.CadastrarContaAcessoController;
+import br.com.fiap.bank.atm.presentation.TerminalBancarioController;
 
 public class Main {
 

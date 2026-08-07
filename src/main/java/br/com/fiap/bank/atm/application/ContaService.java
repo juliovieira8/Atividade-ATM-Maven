@@ -1,8 +1,8 @@
-package br.fiap.bank.atm.application;
+package br.com.fiap.bank.atm.application;
 
-import br.fiap.bank.atm.model.Conta;
-import br.fiap.bank.atm.model.Dinheiro;
-import br.fiap.bank.atm.model.Movimentacao;
+import br.com.fiap.bank.atm.model.Conta;
+import br.com.fiap.bank.atm.model.Dinheiro;
+import br.com.fiap.bank.atm.model.Movimentacao;
 
 import java.util.List;
 

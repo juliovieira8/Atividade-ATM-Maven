@@ -1,4 +1,4 @@
-package br.fiap.bank.atm.model;
+package br.com.fiap.bank.atm.model;
 
 // Essa classe cuida da parte de segurança da conta: senha e bloqueio.
 // Separei do modelo de Conta para não misturar regra financeira com autenticação.

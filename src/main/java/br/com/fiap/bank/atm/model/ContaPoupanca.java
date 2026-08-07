@@ -1,4 +1,4 @@
-package br.fiap.bank.atm.model;
+package br.com.fiap.bank.atm.model;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

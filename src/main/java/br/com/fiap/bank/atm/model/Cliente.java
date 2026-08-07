@@ -1,4 +1,4 @@
-package br.fiap.bank.atm.model;
+package br.com.fiap.bank.atm.model;
 
 // Representa o cliente do banco. Estende BaseEntity para já ter id e data de criação.
 public class Cliente extends BaseEntity {

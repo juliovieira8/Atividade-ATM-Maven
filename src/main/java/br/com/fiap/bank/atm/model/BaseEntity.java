@@ -1,4 +1,4 @@
-package br.fiap.bank.atm.model;
+package br.com.fiap.bank.atm.model;
 
 import java.time.LocalDate;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package br.fiap.bank.atm.model;
+package br.com.fiap.bank.atm.model;
 
 // Enum com os possíveis estados de uma conta.
 // Usei enum em vez de String para evitar erros de digitação e deixar mais seguro.

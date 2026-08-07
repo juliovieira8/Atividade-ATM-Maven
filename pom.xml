@@ -8,7 +8,7 @@
 
     <!-- Coordenadas GAV (Identidade do Projeto) -->
     <groupId>br.com.fiap.bank</groupId>
-    <artifactId>fiap-bank-atm</artifactId>
+    <artifactId>fiap-ddd-java-atm</artifactId>
     <version>1.0.0</version>
 
     <!-- Propriedades Básicas do Compilador -->

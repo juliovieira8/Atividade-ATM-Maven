@@ -2,13 +2,15 @@ package br.com.fiap.bank.atm.infrastructure;
 
 import br.com.fiap.bank.atm.model.Movimentacao;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.UUID;
 
 public class MovimentacaoRepository {
 
-    // Lista insegura atual do FIAP Bank
-    private List<Movimentacao> movimentacoes = new ArrayList<>();
+    // Conjunto seguro do FIAP Bank que impede duplicatas baseado na BaseEntity
+    private Set<Movimentacao> movimentacoes = new HashSet<>();
 
     public void adicionar(Movimentacao entidade) {
         movimentacoes.add(entidade);
@@ -32,6 +34,7 @@ public class MovimentacaoRepository {
     }
 
     public List<Movimentacao> buscarTodas() {
-        return movimentacoes;
+        // Convertendo o Set de volta para List para compatibilidade de visualização
+        return new ArrayList<>(movimentacoes);
     }
 }
